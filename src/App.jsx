@@ -1,6 +1,7 @@
 import AuthControl from "./components/AuthControl";
 import CounterControl from "./components/counterControl";
 import CounterDisplay from "./components/counterDisplay";
+import UserComponent from "./components/UserComponent";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <div style={{ marginTop: "20px" }}>
         <AuthControl />
       </div>
+      <UserComponent />
     </div>
   );
 }
